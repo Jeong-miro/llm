@@ -8,9 +8,15 @@ dependencies = [
     "accelerate>=1.15.0",
     "bitsandbytes>=0.46.1",
     "dotenv>=0.9.9",
+    "faiss-cpu>=1.16.0",
     "gradio>=6.31.0",
     "huggingface>=0.0.1",
     "huggingface-hub>=2.4.0",
+    "langchain>=1.5.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.1",
+    "langchain-google-genai>=4.5.0",
+    "langchain-openai>=1.8.0",
     "matplotlib>=3.11.2",
     "ollama>=0.6.3",
     "openai>=3.46.0",
@@ -22,6 +28,7 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "torch==2.14.1",
     "transformers>=5.22.1",
+    "yfinance>=1.8.0",
 ]
 
 [[tool.uv.index]]
